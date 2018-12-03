@@ -1,0 +1,17 @@
+{% extends 'base.twig' %}
+{% block head %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <span class="navbar-brand" href="#">busTec</span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="clickeable nav-item nav-link active" href="#" data-vista="inicio">Registrar<span class="sr-only">(current)</span></a>
+      <a class="clickeable nav-item nav-link" data-vista="busqueda" href="#">Buscar</a>
+      <a class="clickeable nav-item nav-link" data-vista="graficas" href="#">Graficas</a>
+      <a class="clickeable nav-item nav-link" data-vista="reporte" href="#">Reporte</a>
+    </div>
+  </div>
+</nav>
+{% endblock %}
